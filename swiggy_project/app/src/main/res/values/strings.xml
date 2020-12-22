@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie List</string>
+    <string name="search_hint">Search</string>
+    <string name="no_movie_found">Movie not found!</string>
+    <string name="loading">Loading…</string>
+    <string name="movie_detail_load_error">Movie Details can not be loaded.</string>
+    <string name="name">Name:</string>
+    <string name="year">Year:</string>
+    <string name="rated">Rated:</string>
+    <string name="released">Released:</string>
+    <string name="runtime">Runtime:</string>
+    <string name="genre">Genre:</string>
+    <string name="director">Director:</string>
+    <string name="writer">Writer:</string>
+    <string name="actor">Actors:</string>
+    <string name="plot">Plot:</string>
+    <string name="language">Language:</string>
+    <string name="country">Country:</string>
+    <string name="awards">Awards:</string>
+</resources>
