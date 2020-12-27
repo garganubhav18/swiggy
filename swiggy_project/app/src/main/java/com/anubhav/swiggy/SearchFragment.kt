@@ -100,10 +100,10 @@ class SearchFragment: Fragment(), LoadMoreListener, MovieFragmentListener {
                 recyclerView?.visibility = View.VISIBLE
                 errorTv?.visibility = View.GONE
                 if(recyclerView?.adapter == null) {
-                    recyclerView?.adapter = SearchAdapter(searchViewModel!!.model, this, this)
+                    recyclerView?.adapter = SearchAdapter(ArrayList(searchViewModel!!.model), this, this)
                 } else {
                     if(recyclerView?.adapter is SearchAdapter) {
-                        (recyclerView?.adapter as SearchAdapter).setPhotos(searchViewModel!!.model)
+                        (recyclerView?.adapter as SearchAdapter).setPhotos(ArrayList(searchViewModel!!.model))
                     }
                 }
             } else {
